@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: e781f89351f62b1448d1aa8c067d81f5, type: 2}
+  sharedProfile: {fileID: 11400000, guid: e12888d68b97bc94d92b599ae4f18518, type: 2}
   isGlobal: 1
   blendDistance: 0
   weight: 1
@@ -258,10 +258,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5a3b93555b14588aa45ef0686cf93ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioPeer: {fileID: 462473882}
-  rotateAxis1: {x: 1, y: 0, z: 0}
-  rotateAxis2: {x: 0, y: -1, z: 0}
-  rotateSpeed: 0.6
 --- !u!4 &457558418
 Transform:
   m_ObjectHideFlags: 0
@@ -270,7 +266,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457558416}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 60.7, y: 63.4, z: 36.6}
+  m_LocalPosition: {x: 60, y: 60, z: 60}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2146878086}
@@ -530,7 +526,7 @@ MonoBehaviour:
     m_NumColorKeys: 3
     m_NumAlphaKeys: 2
   colorThreshold1: 0
-  colorMultiplier1: 1
+  colorMultiplier1: 0.5
   useColor2: 1
   colorName2: _EmissionColor
   gradient2:
