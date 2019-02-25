@@ -1,2 +1,4 @@
-# noise_flow_field
+# Noise Flowfield
 Demo project for Unity
+
+![Demo](docs/demo.gif)
