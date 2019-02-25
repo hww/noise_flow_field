@@ -255,9 +255,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 457558416}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5a3b93555b14588aa45ef0686cf93ec, type: 3}
+  m_Script: {fileID: 11500000, guid: e3734da6184cc1847b6b9b020999399a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioPeer: {fileID: 462473882}
+  rotateAxis1: {x: 0, y: 1, z: 0}
+  rotateAxis2: {x: 1, y: 0, z: 0}
+  rotateSpeed: 2
 --- !u!4 &457558418
 Transform:
   m_ObjectHideFlags: 0

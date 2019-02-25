@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Plugins\VARP\KochFractals\AudioPeer.cs" />
+    <Compile Include="Assets\Plugins\VARP\KochFractals\RotateCamera.cs" />
     <Compile Include="Assets\Plugins\VARP\NoiseFields\AudioFlowField.cs" />
     <Compile Include="Assets\Plugins\VARP\NoiseFields\FastNoice.cs" />
     <Compile Include="Assets\Plugins\VARP\NoiseFields\FieldParticle.cs" />
